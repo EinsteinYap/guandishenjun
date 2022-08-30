@@ -20,11 +20,6 @@ import { CardsComponent } from './components/cards/cards.component';
 import { Cards2Component } from './components/cards2/cards2.component';
 import { CubeComponent } from './components/cube/cube.component';
 
-
-
-
-
-
 @NgModule({
   declarations: [
     AppComponent,
