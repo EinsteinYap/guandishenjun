@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  // background-image: url('https://pic.kts.g.mi.com/b58411be436191879ad0b2436780c6138465224294264281914.gif');
+  background-image: url('https://img.52lishi.com/m00/12/74/3f1bdc8b4602cf9c8d564d7eca897b94.jpg');
+  background-repeat: no-repeat;
+  background-size:100%;
+  background-attachment: fixed;
+  
+}
+
+@media screen and (max-width: 1043px) {
+  body {
+    background-size: 100% 100%;
+ 
+  }
+}
+  
+

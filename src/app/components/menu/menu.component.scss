@@ -1,0 +1,21 @@
+.nav-link{
+    color: yellow;
+}
+.navbar-toggler{
+    background-color: yellow;
+}
+.navbar-toggler-icon{
+    background-color: none;
+}
+.navbar{
+    border: solid 0.3rem red;
+}
+.nav-item :hover{
+    // background: rgb(255, 0, 234);
+    border: solid 0.1rem red;
+    border-radius: 5px;
+}
+
+mat-icon{
+    line-height:1.25;
+}

@@ -1,0 +1,67 @@
+
+img {
+    height: 70vh !important;
+    border:20px ridge red;
+    margin: auto;
+}
+
+.carousel-img{
+    border-radius: 50%;
+    box-shadow: -3px 3px 10px 3px gold;
+}
+@media screen and (max-width: 768px) {
+    .h2-text{ 
+        display: none;
+
+       
+    }
+}
+
+
+h2
+{
+    text-align: center;
+    position: relative;
+    font-size: 4rem;
+    color: red;
+    overflow: hidden;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-shadow: 0 0 10px #000;
+
+}
+
+@media screen and (min-width: 768px) {
+    .blockquote-small{ 
+        display: none;
+
+       
+    }
+}
+
+.blockquote-small
+{
+    text-align: center;
+    position: relative;
+    color: red;
+    overflow: hidden;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-shadow: 0 0 10px #000;
+
+}
+
+//card
+.news-container{
+    margin-top: 2rem;
+.example-card {
+    max-width: 400px;
+
+    margin: auto;
+  }
+  
+  .example-header-image {
+    background-image: url('/assets/guan-gong-cartoon-clipart.png');
+    background-size: cover;
+  }
+}
