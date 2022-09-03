@@ -1,13 +1,18 @@
 
 img {
+   
     height: 70vh !important;
     border:20px ridge red;
     margin: auto;
 }
 
+
 .carousel-img{
+    
     border-radius: 50%;
     box-shadow: -3px 3px 10px 3px gold;
+    transform: scale(0.8);
+    transition: all 2s;
 }
 @media screen and (max-width: 768px) {
     .h2-text{ 
@@ -17,6 +22,14 @@ img {
     }
 }
 
+.carousel-img:hover{
+    transform: scale(1) rotateY(360deg);
+    transition: 1s;
+    border:20px solid yellow;
+    border-radius: 0%;
+    z-index: 1;
+
+}
 
 h2
 {
@@ -28,8 +41,19 @@ h2
     padding-top: 2rem;
     padding-bottom: 2rem;
     text-shadow: 0 0 10px #000;
+    z-index: -1 !important;
 
 }
+.calender{
+    transform: scale(0.7);
+    
+}
+.calender:hover{
+    
+    transform: scale(1);
+    transition: all 2s;
+}
+
 
 @media screen and (min-width: 768px) {
     .blockquote-small{ 
@@ -48,20 +72,54 @@ h2
     padding-top: 2rem;
     padding-bottom: 2rem;
     text-shadow: 0 0 10px #000;
+    z-index: -1;
 
 }
 
 //card
 .news-container{
+    scale: 0.7;
     margin-top: 2rem;
+    transition: all 2s;
+    img{
+        content: url('https://s.alicdn.com/@sc04/kf/HTB1DRZHdCSD3KVjSZFKq6z10VXaH.jpg_720x720q50.jpg');
+        size: 100%;
+      }
 .example-card {
     max-width: 400px;
-
     margin: auto;
+   
   }
   
   .example-header-image {
     background-image: url('/assets/guan-gong-cartoon-clipart.png');
     background-size: cover;
   }
+}
+
+.news-container:hover{
+    scale: 1;
+    transform: rotateY(360deg);
+    
+    img{
+        content: url('/assets/GuanGongStanding.jpg');
+       
+      }
+}
+
+.cube{
+    transform: scale(0.4);
+    border: red 20px solid;
+    background-color: red;
+    border-radius: 10% ;
+    transition: all 2s;
+}
+
+.cube:hover{
+    transform: scale(1);
+    border: yellow 50px ridge;
+    background-color: yellow;
+    border-radius: 50% ;
+    transition: all 2s;
+
 }
