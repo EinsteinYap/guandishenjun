@@ -49,6 +49,50 @@
   border: 2.5rem ridge gold;
 }
 
-.door {
-  
+@media screen and (max-width: 768px) {
+  .door::before {
+ 
+    border: 1rem ridge red;
+
+  }
+
+  .door::after {
+   
+    border: 1rem ridge red;
+
+  }
+
+  .door:hover::before {
+   
+    border: 1rem ridge gold;
+  }
+
+  .door:hover::after {
+    
+    border: 1rem ridge gold;
+  }
+}
+
+@media screen and (max-width: 481px) {
+  .door::before {
+ 
+    border: 0.5rem ridge red;
+
+  }
+
+  .door::after {
+   
+    border: 0.5rem ridge red;
+
+  }
+
+  .door:hover::before {
+   
+    border: 0.5rem ridge gold;
+  }
+
+  .door:hover::after {
+    
+    border: 0.5rem ridge gold;
+  }
 }
