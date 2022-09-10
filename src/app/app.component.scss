@@ -1,0 +1,54 @@
+.door::before {
+  content: '';
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0.2%;
+  left: 0.2%;
+  width: 49.6%;
+  height: 99.6%;
+  border: 2.5rem ridge red;
+  background: url(../assets/door1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 3;
+  transition: transform 3s;
+  transform-origin: left;
+
+}
+
+.door::after {
+  content: '';
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0.2%;
+  right: 0.2%;
+  width: 49.6%;
+  height: 99.6%;
+  border: 2.5rem ridge red;
+  background: url(../assets/door2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 3;
+  transition: transform 3s;
+  transform-origin: right;
+}
+
+.door:hover::before {
+  transform: rotateY(90deg) translateX(-100%);
+  border: 2.5rem ridge gold;
+}
+
+.door:hover::after {
+  transform: rotateY(-90deg) translateX(100%);
+  border: 2.5rem ridge gold;
+}
+
+.door {
+  
+}

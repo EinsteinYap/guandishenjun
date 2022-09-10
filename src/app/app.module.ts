@@ -5,6 +5,8 @@ import { MaterialModule } from '././material.module';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { LocationStrategy,HashLocationStrategy } from '@angular/common';
+
 
 //pages
 import { HomeComponent } from './pages/home/home.component';
@@ -40,7 +42,9 @@ import { CubeComponent } from './components/cube/cube.component';
     BrowserAnimationsModule,
     MaterialModule
   ],
-  providers: [],
+  providers: [{
+    provide: LocationStrategy, useClass: HashLocationStrategy
+  }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

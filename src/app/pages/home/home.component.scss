@@ -92,7 +92,7 @@ h2
   }
   
   .example-header-image {
-    background-image: url('/assets/guan-gong-cartoon-clipart.png');
+    background-image: url('../../../assets/guan-gong-cartoon-clipart.png');
     background-size: cover;
   }
 }
@@ -102,7 +102,7 @@ h2
     transform: rotateY(360deg);
     
     img{
-        content: url('/assets/GuanGongStanding.jpg');
+        content: url('../../../assets/GuanGongStanding.jpg');
        
       }
 }
