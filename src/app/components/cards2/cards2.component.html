@@ -1,29 +1,68 @@
-<div class="container">
-    <div class="card">
-        <div class="circle">
-            <h2 class="title">01</h2>
-        </div>
-        <div class="content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <a href="#">Read More</a>
-        </div>
-    </div>
-    <div class="card">
-        <div class="circle">
-            <h2 class="title">02</h2>
-        </div>
-        <div class="content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <a href="#">Read More</a>
-        </div>
-    </div>
-    <div class="card">
-        <div class="circle">
-            <h2 class="title">03</h2>
-        </div>
-        <div class="content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <a href="#">Read More</a>
-        </div>
-    </div>
-</div>
+
+<!-- <div class="profile-cards-body">
+	< class="container-cards-body" *ngFor="let person of persons;index as i">
+		<div class="box"  >
+			<div class="imgBx" >
+				<img [src]="person">
+			</div>
+			<div class="content">
+				<h2>John Doe<br><span>Creative Designer</span></h2>
+			</div>
+		</div>
+	</div> -->
+		<div class="cards-container">
+		<div class="card" style="width: 18rem;" *ngFor="let person of persons;index as i" >
+			<img class="card-img-top" [src]="person.photo" alt="Card image cap"  >
+			<div class="card-body">
+				<p class="card-text">{{ person.name }}</p>
+			  <p class="card-text">{{ person.role }}</p>
+			</div>
+		  </div>
+		</div>
+
+
+		<!-- <div class="card-group" *ngFor="let person of persons;index as i">
+			<div class="card">
+			  <img class="card-img-top"  [src]="person" alt="Card image cap">
+			  <div class="card-body">
+				<h5 class="card-title">Card title</h5>
+				<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+			  </div>
+			</div>
+		  </div> -->
+		<!-- <div class="box-cards-body">
+			<div class="imgBx">
+				<img src="../../../assets/person/img1.jpg">
+			</div>
+			<div class="content">
+				<h2>John Doe<br><span>Creative Designer</span></h2>
+			</div>
+		</div> -->
+		<!-- <div class="box-cards-body">
+			<div class="imgBx">
+				<img src="img2.jpg">
+			</div>
+			<div class="content">
+				<h2>John Doe<br><span>Creative Designer</span></h2>
+			</div>
+		</div>
+		<div class="box-cards-body">
+			<div class="imgBx">
+				<img src="img3.jpg">
+			</div>
+			<div class="content">
+				<h2>John Doe<br><span>Creative Designer</span></h2>
+			</div>
+		</div>
+		<div class="box-cards-body">
+			<div class="imgBx">
+				<img src="img3.jpg">
+			</div>
+			<div class="content">
+				<h2>John Doe<br><span>Creative Designer</span></h2>
+			</div>
+		</div> -->
+	<!-- </div>
+</div> -->
+

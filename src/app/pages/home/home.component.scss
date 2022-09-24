@@ -109,17 +109,24 @@ h2
 
 .cube{
     transform: scale(0.4);
-    border: red 20px solid;
-    background-color: red;
-    border-radius: 10% ;
+    // border: red 20px solid;
+    // background-color: red;
+    // border-radius: 10% ;
     transition: all 2s;
+    opacity: 0.4;
 }
 
+// .cube:hover{
+//     transform: scale(1);
+//     border: yellow 50px ridge;
+//     background-color: yellow;
+//     border-radius: 50% ;
+//     transition: all 2s;
+
+// }
+
 .cube:hover{
-    transform: scale(1);
-    border: yellow 50px ridge;
-    background-color: yellow;
-    border-radius: 50% ;
-    transition: all 2s;
+  opacity: 1;
+  transform: scale(2);
 
 }

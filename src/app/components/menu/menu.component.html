@@ -4,16 +4,16 @@
         <mat-icon>menu</mat-icon>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav" *ngFor="let menu of menus">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" routerLink="/home"><mat-icon>home</mat-icon> 主页</a>
+            <a class="nav-link" aria-current="page" routerLink="{{ menu.link }}"><mat-icon>{{ menu.icon }}</mat-icon> {{ menu.name }}</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" routerLink="/about"><mat-icon>info</mat-icon> 关于关帝庙</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" routerLink="/contact"><mat-icon>contact_phone</mat-icon> 联系</a>
-          </li>
+          </li> -->
         </ul>
       </div>
     </div>

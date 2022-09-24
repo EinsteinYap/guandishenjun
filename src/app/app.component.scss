@@ -9,7 +9,7 @@
   width: 49.6%;
   height: 99.6%;
   border: 2.5rem ridge red;
-  background: url(../assets/door1.jpg);
+  background: url("../assets/door1.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -29,8 +29,9 @@
   right: 0.2%;
   width: 49.6%;
   height: 99.6%;
+  // border: 2.5rem ridge red;
   border: 2.5rem ridge red;
-  background: url(../assets/door2.jpg);
+  background: url("../assets/door2.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -93,6 +94,6 @@
 
   .door:hover::after {
     
-    border: 0.5rem ridge gold;
+    border: 1rem ridge gold;
   }
 }

@@ -21,6 +21,10 @@ import { MenuComponent } from './components/menu/menu.component';
 import { CardsComponent } from './components/cards/cards.component';
 import { Cards2Component } from './components/cards2/cards2.component';
 import { CubeComponent } from './components/cube/cube.component';
+import { FormComponent } from './components/form/form.component';
+import { ProgressCardComponent } from './components/progress-card/progress-card.component';
+import { RoadmapComponent } from './pages/roadmap/roadmap.component';
+import { LoaderComponent } from './components/loader/loader.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +38,11 @@ import { CubeComponent } from './components/cube/cube.component';
     CubeComponent,
     ZhangfeiComponent,
     GuanyuComponent,
-    LiubeiComponent
+    LiubeiComponent,
+    FormComponent,
+    ProgressCardComponent,
+    RoadmapComponent,
+    LoaderComponent
   ],
   imports: [
     BrowserModule,
