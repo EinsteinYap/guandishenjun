@@ -15,9 +15,9 @@ export class MenuComponent implements OnInit {
     link:"/about",
     icon:"info"
   },{
-    name:"Contact",
-    link:"/contact",
-    icon:"contact_phone"
+    name:"Gallery",
+    link:"/gallery",
+    icon:"photo_library"
   },
   {
     name:"Road Map",

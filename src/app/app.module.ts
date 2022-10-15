@@ -25,6 +25,7 @@ import { FormComponent } from './components/form/form.component';
 import { ProgressCardComponent } from './components/progress-card/progress-card.component';
 import { RoadmapComponent } from './pages/roadmap/roadmap.component';
 import { LoaderComponent } from './components/loader/loader.component';
+import { GalleryComponent } from './pages/gallery/gallery.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { LoaderComponent } from './components/loader/loader.component';
     FormComponent,
     ProgressCardComponent,
     RoadmapComponent,
-    LoaderComponent
+    LoaderComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,
